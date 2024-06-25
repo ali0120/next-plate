@@ -23,7 +23,7 @@ const Contact = async ({ params }: { params: { lang: string } }) => {
 
   return (
     <>
-      <SeoMeta
+      {/* <SeoMeta
         title={title}
         meta_title={meta_title}
         description={description}
@@ -31,7 +31,7 @@ const Contact = async ({ params }: { params: { lang: string } }) => {
       />
       <PageHeader title={title}>
         <Breadcrumbs lang={params.lang} />
-      </PageHeader>
+      </PageHeader> */}
       <section className="section-sm">
         <div className="container">
           <div className="row">
